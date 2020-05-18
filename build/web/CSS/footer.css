@@ -1,0 +1,28 @@
+.footer{
+    width: 100% !important;
+    background-color: rgb(30, 30, 30) !important;
+    color: white !important;
+    resize: unset !important;
+    margin-top: 30px !important;
+}
+.footer > .container{
+    padding: 30px !important;
+}
+.footer img{
+    margin-bottom: 10px !important;
+}
+#texto{
+    border-radius: 2px !important;
+    font-size: 20px !important;
+    height: 87px !important; 
+    resize: none !important;
+}
+.logoBtech{
+    margin-top: -30px;
+    width: 250px;
+    height: 150px;
+}
+.logoWissen{
+    width: 280px;
+    height: 80px;
+}

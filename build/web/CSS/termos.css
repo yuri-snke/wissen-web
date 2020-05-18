@@ -1,0 +1,97 @@
+div{
+    border-color: #762C69;
+    margin: 10px;
+}
+#explicacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#explicacao h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#explicacao p{
+    padding: 20px;
+}
+#servicos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#servicos h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#servicos p{
+    padding: 20px;
+}
+#utilizacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#utilizacao h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#utilizacao p{
+    padding: 20px;
+}
+#regras{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#regras h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#regras p{
+    padding: 20px;
+}
+#cadUser{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#cadUser h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#cadUser p{
+    padding: 20px;
+}
+#prazo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#prazo h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#prazo {
+    padding: 20px;
+}
+#condicoes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#condicoes h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+#condicoes p{
+    padding: 20px;
+}
+#posse p{
+    padding: 20px;
+}
+#font{
+    font-size: 20px;
+}
+#font2{
+    padding-left: 50px;
+}

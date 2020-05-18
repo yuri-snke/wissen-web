@@ -1,0 +1,171 @@
+*{font-family: 'Comfortaa', 'PT-Sans'}
+body{
+    background-color: #191919;
+    background-image: radial-gradient(#404040, #090909);
+    color: white;
+}
+#conteudo{
+    margin-top: 50px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#conteudo h1{
+    margin-top: 60px;
+}
+#conteudo > h4{
+    margin-bottom: 30px;
+}
+div.pacote{
+    transition-property: padding, box-shadow;
+    transition-duration: .6s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+.pacote:hover,
+.pacote:focus{
+    padding: 20px;
+    box-shadow: 0px 0px 30px 5px #000;
+}
+.pacote .prata,
+.pacote .ouro,
+.pacote .diamante{
+    transition: all .3s .06s linear;
+}
+.pacote i.i-prata,
+.pacote i.i-ouro, 
+.pacote i.i-diamante{
+    font-size: 215px;
+}
+.pacote i.i-prata,
+.pacote i.i-ouro, 
+.pacote i.i-diamante{
+    transition: all .3s .06s linear;
+}
+.pacote:hover .prata,
+.pacote:focus .prata{
+    font-size: 70px;
+    background-image: linear-gradient(#F5F5F5, #C0C0C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover i.i-prata,
+.pacote:focus i.i-prata{
+    font-size: 270px;
+    background-image: linear-gradient(#F5F5F5, #C0C0C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover .ouro,
+.pacote:focus .ouro{
+    font-size: 70px;
+    background-image: linear-gradient(#FAFAD2, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover i.i-ouro,
+.pacote:focus i.i-ouro{
+    font-size: 270px;
+    background-image: linear-gradient(#FAFAD2, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover .diamante,
+.pacote:focus .diamante{
+    font-size: 70px;
+    background-image: linear-gradient(#E0FFFF, #40E0D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover i.i-diamante,
+.pacote:focus i.i-diamante{
+    font-size: 270px;
+    background-image: linear-gradient(#E0FFFF, #40E0D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pacote:hover .buy{
+    transition-property: background-image, color;
+    transition-duration: .2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.pacote:hover a{
+    transition: all .2s .2s ease-in-out;
+}
+.pacote:hover .buy.b-prata{
+    background-image: linear-gradient(#F5F5F5, #C0C0C0);
+    transition-property: box-shadow, background-color, color;
+    transition-duration: .3s;
+    transition-delay: .1s;
+    transition-timing-function: linear;
+}
+.pacote:hover .buy a{
+    color: black;
+}
+.pacote:hover .buy.b-ouro{
+    background-image: linear-gradient(#FAFAD2, #FFA500);
+    transition-property: box-shadow, background-color, color;
+    transition-duration: .3s;
+    transition-delay: .1s;
+    transition-timing-function: linear;	
+}
+.pacote:hover .buy a{
+    color: black;
+}
+.pacote:hover .buy.b-diamante{
+    background-image: linear-gradient(#E0FFFF, #40E0D0);
+    transition-property: box-shadow, background-color, color;
+    transition-duration: .3s;
+    transition-delay: .1s;
+    transition-timing-function: linear;	
+}
+.pacote:hover .buy a{
+    color: black;
+}
+.buy{
+    /*background-color: #A0028C;  rosa*/
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82, #43075C);
+}
+.buy a{
+    color: white;
+    text-decoration: none;
+}
+.buy.b-prata:hover{
+    color: black;
+    box-shadow: 0px 0px 20px 0px #C0C0C0;
+}
+.buy.b-ouro:hover{
+    color: black;
+    box-shadow: 0px 0px 20px 0px #FFA500;
+}
+.buy.b-diamante:hover{
+    color: black;
+    box-shadow: 0px 0px 20px 0px #40E0D0;
+}
+span.preco{
+    cursor: pointer;
+    background-color: #4a148C;
+    color: #e9e9ee;
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -20px;
+    border: 2px solid white;
+    border-top-right-radius: 20px;
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-delay: .1s;
+    transition-timing-function: linear; 
+}
+.buy.b-prata:hover + span.preco{
+    box-shadow: 0 0 20px 0 #C0C0C0;
+}
+.buy.b-ouro:hover + span.preco{
+    box-shadow: 0 0 20px 0 #FFA500;
+}
+.buy.b-diamante:hover + span.preco{
+    box-shadow: 0 0 20px 0 #40E0D0;
+}

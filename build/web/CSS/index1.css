@@ -1,0 +1,166 @@
+body{
+    background-color: #191919; 
+    background-image: radial-gradient(#43075C, #090909);
+    color: white;
+}
+@media (min-width: 1199px){
+    body{
+        height: 950px;
+    }
+}
+#comecar .logo{
+    float: right;
+    margin-top: 200px;
+    margin-right: 10px;
+    width: 500px;
+    height: 150px;
+}
+#comecar button{
+    width: 220px;
+    height: 50px;
+    float: right;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+#comecar .login{
+    background-color: #311b92;
+    color: white;
+}
+#loginModal .login{
+    background-color: #311b92;
+    color: white;
+}
+#cadastroModal .cadastro{
+    background-color: #311b92;
+    color: white;
+    margin-top: 60px;
+}
+#comecar .cadastro{
+    background-color: #191919;
+    color: white;
+}
+#comecar .visita{
+    background-color: #f57f17;
+    color: white;
+}
+#comecar span{
+    float: right;
+    clear: both;
+    margin-right: 10px;
+    font-size: 15px;
+    text-shadow: 2px 1px black;
+}
+#comecar a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+#comecar a:hover{
+    color: skyblue;
+    text-decoration: line;
+}
+.carousel{
+    height: 500px;
+    width: 100%;
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 200px; 
+}
+
+.carousel-caption{
+    z-index: 10;
+}
+
+.carousel .item{
+    height: 500px;
+    /*background-color: rgb(40,40,40);*/
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+.modal .modal-dialog .modal-content{
+    background-color: rgb(21,21,21);
+}
+.modal-body{
+    background-color: rgb(35, 35, 35);
+}
+.check{
+    margin-bottom: 15px;
+}
+.check input[type="checkbox"]{
+    display: none;
+}
+.check label{
+    cursor: pointer;
+    margin-top: 15px;
+}
+.check input[type="checkbox"] + label:before {
+    border: 1px solid #fff;
+    content: "\00a0";
+    display: inline-block;
+    font: 26px/0.48em sans-serif;
+    height: 16px;
+    margin: 0 1em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+}
+.check input[type="checkbox"]:checked + label:before{
+    background: #311b92;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+    margin: 0 1em 0 0;
+}
+.check input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #d49802;
+    box-shadow: 0 1px 0 0 #d49802;
+    color: white;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search-md]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #d49802;
+}
+.input-field .prefix {
+    position: absolute;
+    width: 3rem;
+    font-size: 2rem;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.input-field .prefix.active {
+    color: #d49802;
+}

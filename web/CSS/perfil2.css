@@ -1,0 +1,436 @@
+*{font-family: 'Comfortaa', 'PT-Sans'}
+body{
+    background-color: #191919;
+    background-image: radial-gradient(#303030, #090909);
+    color: white;
+}
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+#dados{
+    margin-top: 70px;
+    padding-top: 70px;
+}
+#conteudo{
+    margin: 0 0 0 10.4%;
+}
+#dados h4{
+    position: absolute;
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+    top: 60px;
+    left: 130px;
+}
+#dados ul li{
+    padding: 20px 0;
+}
+#dados .link{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+#dados .links{
+    padding-left: 15%;
+}
+.evseguidos{
+    margin-bottom: 10px;
+}
+.evseguidos h3{
+    margin-bottom: 30px;
+}
+.evseguidos, .outro{
+    width: 133%;
+}
+.mseguidores{
+    margin-bottom: 10px;
+    margin-left: 14%;
+}
+.mseguidores h3{
+    margin-bottom: 30px; 
+}
+.carousel-inner { margin: auto; width: 100% !important; }
+.carousel-control{ width:  0; margin: 0 -15px;}
+.carousel-control.left,
+.carousel-control.right {
+    background: none;
+}
+
+.glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    margin-top:-10px;
+    margin-left: -10px;
+    color: #d49802;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+@media (min-width: 992px ) {
+
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(33.33%, 0, 0);
+        transform: translate3d(33.33%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-33.33%, 0, 0);
+        transform: translate3d(-33.33%, 0, 0);
+    }
+
+}
+#carousel-evseguidos{
+    height: 400px;
+}
+#carousel-evseguidos .item{
+    height: 400px;
+    background-color: transparent;
+}
+#carousel-outro{
+    height: 400px;
+}
+#carousel-outro .item{
+    height: 400px;
+    background-color: transparent;
+}
+.card{
+    background-color: #313131;
+}
+.card .card-image img{
+    height: 250px;
+    width: 500px;
+}
+.card .card-content h5{
+    margin-top: 20px;
+    border-bottom: 1px solid #292929;
+}
+.amigos{
+    height: 200px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.amigos ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.amigos ul li:not(.active){
+    display: inline-block;
+    top: 0;
+    list-style: none;
+    cursor: pointer;
+    min-width: 1px;
+}
+.amigos ul li.active{
+    cursor: pointer;
+}
+.amigos ul li img{
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    height: 200px;
+    width: 200px !important;
+    border: 1px solid #505050;
+}
+.amigos ul li:first-child img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.amigos ul li p{
+    color: white;
+}
+#alterarFoto > div > h3{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#alterarFoto button[type="submit"]{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    color: white;
+    margin-top: 10px;
+}
+#alterarFoto button[type="button"]{
+    margin-right: 15%;
+}
+.input-file-container {
+    position: relative;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 15px;
+} 
+.js .input-file-trigger {
+    display: block;
+    padding: 14px 45px;
+    background: rgb(155, 155, 155);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    transition: all .5s;
+    cursor: pointer;
+}
+.js .input-file {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    opacity: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    color: white;
+}
+
+.file-return {
+    margin: 0;
+}
+.file-return:not(:empty) {
+    margin: 1em 0;
+}
+.js .file-return {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+    content: "Arquivo Selecionado: ";
+    font-style: normal;
+    font-weight: normal;
+}
+#informacoes .edicao{
+    margin-left: 13%;
+}
+#informacoes .edicao .form-group > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#informacoes .edicao .form-group > label > i{
+    font-size: 30px;
+}
+#informacoes .edicao > .col-lg-6, #informacoes .edicao > .col-md-6, #informacoes .edicao > .col-sm-6 {
+    margin-left: 17%;
+}
+#informacoes button[type="submit"]{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    margin-left: 29%;
+    color: white;
+}
+#configSeguranca .cog{
+    margin-left: 13%;
+}
+#configSeguranca .cog .form-group > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#configSeguranca .cog .form-group > label[for="exibirPS"], #configSeguranca .cog .form-group > label[for="exibirS"]{
+    font-size: 15px;
+    margin-top: 0;
+}
+#configSeguranca .cog .form-group > label > i{
+    font-size: 30px;
+}
+#configSeguranca .cog > .col-lg-8, #configSeguranca .cog > .col-md-8, #configSeguranca .cog > .col-sm-8{
+    margin-left: 8%;
+}
+#configSeguranca .cog > .botao, #configSeguranca .cog > .botao, #configSeguranca .cog > .botao{
+    margin-left: 0;
+}
+#configSeguranca button[type="submit"]{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    margin-left: 29%;
+    color: white;
+}
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #d49802;
+    box-shadow: 0 1px 0 0 #d49802;
+    color: white;
+}
+
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search-md]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #d49802;
+    transition: all .2s;
+}
+.checkPS, .checkS{
+    margin-bottom: 15px;
+}
+.checkPS input[type="checkbox"], .checkS input[type="checkbox"]{
+    display: none;
+}
+.checkPS label[for="exibirPS"], .checkS label[for="exibirS"]{
+    cursor: pointer;
+    margin-top: 15px;
+}
+.checkPS input[type="checkbox"] + label[for="exibirPS"]:before, .checkS input[type="checkbox"] + label[for="exibirS"]:before  {
+    border: 1px solid #fff;
+    content: "\00a0";
+    display: inline-block;
+    font: 26px/0.48em sans-serif;
+    height: 16px;
+    margin: 0 1em 0 0;
+    padding:0;
+    vertical-align: top;
+    width: 16px;
+}
+.checkPS input[type="checkbox"]:checked + label[for="exibirPS"]:before, .checkS input[type="checkbox"]:checked + label[for="exibirS"]:before{
+    background: #311b92;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+    margin: 0 1em 0 0;
+}
+.checkPS input[type="checkbox"]:checked + label[for="exibirPS"]:after, .checkS input[type="checkbox"]:checked + label[for="exibirS"]:after {
+    font-weight: bold;
+}
+.cogNavigation{
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid #d49802;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+.menu a:hover{
+    border-bottom: 0px;
+}
+.menu i{
+    font-size: 30px;
+}
+#privacidade > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#privacidade button[type="submit"]{
+    color: white;
+}
+#configSeguranca .priv{
+    margin-left: 13%;
+}
+#configSeguranca .priv > .col-lg-8, #configSeguranca .priv > .col-md-8, #configSeguranca .priv > .col-sm-8{
+    margin-left: 8% !important;
+}
+#configSeguranca .priv > .botao, #configSeguranca .priv > .botao, #configSeguranca .priv > .botao{
+    margin-left: 0 !important;
+}
+#configSeguranca button[type="submit"]{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    margin-left: 29%;
+    color: white;
+}
+.cogPriv{
+    width: 160px;
+    height: 52px;
+    margin: 30px auto;
+    position: relative;
+    right: 8%;
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 1px rgba(255, 255, 255, 0.2);
+}
+.cogPriv:after{
+    content: 'OFF';
+    color: #000;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, .15);
+}
+.cogPriv:before{
+    content: 'ON';
+    color: #d49802;
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    z-index: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cogPriv label{
+    display: block;
+    width: 68px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    z-index: 1;
+    background-color: #d49802;
+    border-radius: 50px;
+    transition: all .4s ease;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+.cogPriv input[type="checkbox"]{
+    visibility: hidden;
+}
+.cogPriv input[type="checkbox"]:checked + label{
+    left: 86px;
+}
+.cancelar{
+    margin-top: 20px !important;
+}

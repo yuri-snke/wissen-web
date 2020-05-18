@@ -1,0 +1,279 @@
+*{font-family: 'Comfortaa', 'PT-Sans'}
+body{
+    background-color: #191919;
+    background-image: radial-gradient(#303030, #090909);
+    color: white;
+}
+.evseguidos, .outro{
+    width: 133%;
+}
+#conteudo{
+    margin: 0 0 0 10.4%;
+}
+#dados{
+    margin-top: 70px;
+    padding-top: 70px;
+}
+#dados h4{
+    position: absolute;
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+    top: 60px;
+    left: 130px;
+}
+#dados ul li{
+    padding: 20px 0;
+}
+#dados .link{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+#dados .links{
+    padding-left: 15%;
+}
+.evseguidos{
+    margin-bottom: 10px;
+}
+.evseguidos h3{
+    margin-bottom: 30px;
+}
+.mseguidores{
+    margin-bottom: 10px;
+}
+.mseguidores h3{
+    margin-bottom: 30px; 
+}
+.carousel-inner { margin: auto; width: 100%; }
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,
+.carousel-control.right {
+    background-image:none;
+}
+
+.glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    margin-top:-10px;
+    margin-left: -10px;
+    color: #b388ff;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+@media (min-width: 992px ) {
+
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(33.33%, 0, 0);
+        transform: translate3d(33.33%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-33.33%, 0, 0);
+        transform: translate3d(-33.33%, 0, 0);
+    }
+
+}
+#carousel-evseguidos{
+    height: 400px;
+}
+#carousel-evseguidos .item{
+    height: 400px;
+    background-color: transparent;
+}
+#carousel-outro{
+    height: 400px;
+}
+#carousel-outro .item{
+    height: 400px;
+    background-color: transparent;
+}
+.card{
+    background-color: #313131;
+}
+.card .card-image img{
+    height: 250px;
+    width: 500px;
+}
+.card .card-content h5{
+    margin-top: 20px;
+    border-bottom: 1px solid #292929;
+}
+.amigos{
+    height: 200px;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.amigos ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.amigos ul li:not(.active){
+    display: inline-block;
+    top: 0;
+    list-style: none;
+    cursor: pointer;
+    min-width: 1px;
+}
+.amigos ul li.active{
+    cursor: pointer;
+}
+.amigos ul li img{
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    height: 200px;
+    width: 200px !important;
+    border: 1px solid #505050;
+}
+.amigos ul li:first-child img{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.amigos ul li p{
+    color: white;
+}
+.b-add{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82, #43075C);
+    /*float: right;*/
+    margin-top: 70px;
+    cursor: pointer;
+    color: white;
+}
+.b-remove{
+    background-color: #b71c1c;
+    background-image: linear-gradient(#b71c1c, #d50000);
+    margin-top: 70px;
+    cursor: pointer;
+    color: white;
+}
+.b-remove:hover{
+    color: white;
+}
+.b-add:hover{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    color: white;
+}
+label.add-amigo{
+    color: white;
+    cursor: pointer;
+    background-color: #4a148C;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 32px;
+    left: 10px;
+    margin-left: -25px;
+    border: 3px solid #4a148C;
+    border-left: none;
+    border-right: none;
+    border-top-right-radius: 20px;
+    transition-property: margin-left, border-top, border-bottom;
+    transition-duration: .23s;
+    transition-delay: .02s;
+    transition-timing-function: linear;	
+}
+label.rem-amigo{
+    color: white;
+    cursor: pointer;
+    background-color: #f44336;
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 32px;
+    left: 10px;
+    margin-left: -25px;
+    border: 3px solid #f44336;
+    border-left: none;
+    border-right: none;
+    border-top-right-radius: 20px;
+    transition-property: margin-left, border-top, border-bottom;
+    transition-duration: .23s;
+    transition-delay: .02s;
+    transition-timing-function: linear;	
+}
+.b-add:hover + .add-amigo{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    border-bottom: 3px solid #43075C;
+    border-top: 3px solid #5e0a82;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}
+.add-amigo:hover{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    border-bottom: 3px solid #43075C;
+    border-top: 3px solid #5e0a82;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}
+.b-remove:hover + .rem-amigo{
+    background-color: #b71c1c;
+    background-image: linear-gradient(#b71c1c, #d50000);
+    border-bottom: 3px solid #b71c1c;
+    border-top: 3px solid #b71c1c;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}
+.rem-amigo:hover{
+    background-color:#b71c1c;
+    background-image: linear-gradient(#b71c1c 40%, #d50000 60%);
+    border-bottom: 3px solid #b71c1c;
+    border-top: 3px solid #b71c1c;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2017, 14:30:02
+    Author     : CT Tarde
+*/
+

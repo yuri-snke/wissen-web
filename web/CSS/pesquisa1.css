@@ -1,0 +1,165 @@
+*{font-family: 'Comfortaa', 'PT-Sans'}
+body{
+    background-color: #191919;
+    /*background-image: radial-gradient(#404040, #090909);*/
+    background-image: linear-gradient(to bottom, #353535, #090909);
+    color: white;
+}
+#conteudo{
+    margin-top: 80px;
+    padding-top: 60px;
+}	
+#eventos, #pessoas, #categorias{
+    min-height: 440px;
+    max-height: 100%;
+    position: relative;
+}
+.footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+.searchbar{
+    margin: 0 auto;
+    width: 100%;
+}
+.searchbar input{
+    width: 100%;
+    font-size: 20px;
+    height: 46px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.searchbar button{
+    width: 100%;
+    height: 60px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.searchbar button span{
+    font-size: 25px;
+}
+.abas ul{
+    display: inline-block;
+    width: 100%;
+}
+.abas ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.abas ul li a i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 6px;
+}
+.tijolo{
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.tijolo img{
+    height: 250px;
+    width: 500px;
+}
+.tijolo .statusEv{
+    width: 92.6%;
+    height: 40px;
+    border: 2px solid white;
+}
+.tijolo .statusEv .numeroEv{
+    width: 70%;
+    border-right: 2px solid white;
+    padding-left: 15px;
+}
+.tijolo .statusEv .dataEv{
+    /*width: 30%;*/
+    padding-left: 15px;
+}
+.tijolo .b-ver{
+    color: white;
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82, #43075C);
+    float: right;
+    position: absolute;
+    top: 100%;
+    left: 75%;
+    margin-top: 25px;
+}
+.tijoloPessoas{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.tijoloPessoas h4{
+    font-size: 30px;
+}
+.tijoloPessoas img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.tijoloPessoas .b-add{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    /*float: right;*/
+    margin-top: 70px;
+}
+.tijoloPessoas .b-add a{
+    color: white;
+}
+.tijoloPessoas .b-add:hover{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+}
+span.add-amigo{
+    cursor: pointer;
+    background-color: #4a148C;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 32px;
+    left: 10px;
+    margin-left: -25px;
+    border: 3px solid #4a148C;
+    border-left: none;
+    border-right: none;
+    border-top-right-radius: 20px;
+    transition-property: margin-left, border-top, border-bottom;
+    transition-duration: .23s;
+    transition-delay: .02s;
+    transition-timing-function: linear;	
+}
+span.add-amigo a{
+    color: white;
+}
+.b-add:hover + .add-amigo{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    border-bottom: 3px solid #43075C;
+    border-top: 3px solid #5e0a82;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}
+.add-amigo:hover{
+    background-color: #43075C;
+    background-image: linear-gradient(#5e0a82 40%, #43075C 60%);
+    border-bottom: 3px solid #43075C;
+    border-top: 3px solid #5e0a82;
+    border-right: none;
+    border-left: none;
+    margin-left: -40px;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}

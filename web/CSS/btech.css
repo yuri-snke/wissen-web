@@ -1,0 +1,277 @@
+*{font-family: 'Comfortaa', 'PT-Sans'}
+
+.navbar-default .navbar-brand{
+    color: white !important;
+    padding-top: 16px;
+    padding-bottom: 21px;
+    font-size: 30px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.navbar-default .navbar-nav > .active >a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #e0e0e0;
+    color: black !important;
+}
+.navbar-fixed-top{
+    padding: 0px !important;
+}
+#background{
+    background-image: url("../Imagens/Escritorio.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+}
+#background > .row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.fundo{
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 50%;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.inicio{
+    padding-top: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 95%;
+    width: 100%;
+}
+.inicio > h3{
+    padding: 5px;
+}
+.inicio > h1{
+    font-size: 70px;
+    padding: 5px;
+}
+.inicio > p{
+    padding-bottom: 5px;
+}
+.inicio > button{
+    width: 200px;
+}
+#quemSomos{
+    padding-top: 50px;
+}
+#missao{
+    padding-top: 50px;
+}
+#aplicacao{
+    padding-top: 50px;
+}
+#wissen{
+    padding-top: 50px;
+}
+#desenvolvedores{
+    padding-top: 50px;
+}
+#tellme{
+    padding-top: 50px;
+}
+.container > hr{
+    border-bottom: 1px solid #e0e0e0;
+}
+#quemSomos h1{
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#quemSomos h1::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.9);
+    text-align: center;
+    margin: 10px auto 0; 
+}
+#tellme h1{
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#tellme h1::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.9);
+    text-align: center;
+    margin: 10px auto 0; 
+}
+#quemSomos p{
+    margin-bottom: 10px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+}
+#quemSomos img{
+    width: 350px;
+    height: 350px;
+}
+#quemSomos .img-thumbnail{
+    border: 0px solid #ddd !important;
+}
+#missao h1{
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#missao h1::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.9);
+    text-align: center;
+    margin: 10px auto 0; 
+}
+#missao h2{
+    padding: 15px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#missao img{
+    border-radius: 300px;
+    margin-bottom: 15px;
+    /*border: 30px solid rgba(30, 144, 255, 0.6);*/
+}
+#missao .img-thumbnail{
+    border: 0px solid #ddd !important;
+}
+#missao p{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+}
+#wissen h1{
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#wissen h1::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.9);
+    text-align: center;
+    margin: 10px auto 0; 
+}
+#wissen h2{
+    padding: 15px;
+    font-size: 30px;
+    margin-bottom: 5px; 
+}
+#wissen img{
+    margin-bottom: 15px;
+}
+#wissen .img-thumbnail{
+    border: 0px solid #ddd !important;
+}
+#wissen p{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px
+}
+#desenvolvedores h1{
+    padding: 5px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#desenvolvedores h1::after{
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    border-bottom: 2px solid rgba(30, 144, 255, 0.9);
+    text-align: center;
+    margin: 10px auto 0; 
+}
+#desenvolvedores img{
+    margin-top: 15px;
+}
+.carousel{
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption{
+    z-index: 10;
+}
+
+.carousel .item{
+    height: 600px;
+    background-color: rgb(40,40,40);
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 600px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    resize: unset;
+}
+.footer > .container{
+    padding: 30px;
+}
+.footer img{
+    margin-bottom: 10px;
+}
+#texto{
+    border-radius: 2px;
+    font-size: 20px;
+    height: 175px; 
+    resize: none;
+
+}
+.enviar{
+    color: white !important;
+}
+.footer a{
+    text-decoration: none;
+    float: left;
+    clear: both;
+    color: white;
+    padding: 2px;
+}
+.footer a:hover{
+    color: grey;
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+}
+
+.wissen{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.logoBtech{
+    width: 250px;
+    height: 150px;
+}
+.logoBtechNav{
+    width: 170px;
+    height: 100px;
+    margin-top: -25px;
+}
